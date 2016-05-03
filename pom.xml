@@ -21,8 +21,8 @@
         <performancetest.webservice.path>/</performancetest.webservice.path>
         <performancetest.connectTimeout>1000</performancetest.connectTimeout>
         <performancetest.responseTimeout>120000</performancetest.responseTimeout>
-        <performancetest.threadCount>5</performancetest.threadCount>
-        <performancetest.loopCount>1</performancetest.loopCount>
+        <performancetest.threadCount>20</performancetest.threadCount>
+        <performancetest.loopCount>10</performancetest.loopCount>
     </properties>
 
     <dependencies>
