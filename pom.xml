@@ -17,12 +17,12 @@
         <jetty.port>9097</jetty.port>
         <jetty.stopPort>19097</jetty.stopPort>
         <performancetest.webservice.host>localhost</performancetest.webservice.host>
-        <performancetest.webservice.port>${jetty.port}</performancetest.webservice.port>
-        <performancetest.webservice.path>/</performancetest.webservice.path>
+        <performancetest.webservice.port>8080</performancetest.webservice.port>
+        <performancetest.webservice.path>/?delay=60</performancetest.webservice.path>
         <performancetest.connectTimeout>1000</performancetest.connectTimeout>
         <performancetest.responseTimeout>3000</performancetest.responseTimeout>
-        <performancetest.threadCount>20</performancetest.threadCount>
-        <performancetest.loopCount>10</performancetest.loopCount>
+        <performancetest.threadCount>5</performancetest.threadCount>
+        <performancetest.loopCount>1</performancetest.loopCount>
     </properties>
 
     <dependencies>
