@@ -35,6 +35,16 @@
 
     <profiles>
         <profile>
+            <id>local</id>
+            <properties>
+                <performancetest.webservice.host>localhost</performancetest.webservice.host>
+                <performancetest.webservice.port>8080</performancetest.webservice.port>
+                <performancetest.webservice.path>/?delay=60</performancetest.webservice.path>
+                <performancetest.threadCount>5</performancetest.threadCount>
+                <performancetest.loopCount>1</performancetest.loopCount>
+            </properties>
+        </profile>
+        <profile>
             <id>jenkins</id>
             <properties>
                 <performancetest.webservice.host>tomcat7-example-webapp.mlex.cloudbees.net</performancetest.webservice.host>
